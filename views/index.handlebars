@@ -1,33 +1,104 @@
-<div id="home">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 offset-2">
-        <h1>{{msg}}</h1>
-        <h2>This is our Home Page!</h2>
-        <form class="clearfix mb-4" action="POST">
-          <div class="form-group">
-            <label for="example-text">Example Text</label>
-            <input type="text" id="example-text" class="form-control" aria-describedby="example-text" placeholder="Enter Example Text">
-          </div>
-          <div class="form-group">
-            <label for="example-description">Example Description</label>
-            <textarea class="form-control" id="example-description" aria-describedby="example-description" placeholder="Enter Example Description"></textarea>
-          </div>
-          <button id="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
-        <h3>Examples:</h3>
-        <ul id="example-list" class="list-group">
-          {{#each examples}}
-          <li data-id="{{this.id}}" class="list-group-item">
-            <a href="example/{{this.id}}">{{this.text}}</a>
-            <button class="btn btn-danger float-right delete">ｘ</button>
-          </li>
-          {{/each}}
-        </ul>
-      </div>
+<nav class="navbar navbar-dark bg-success">
+  <a class="navbar-brand " href="#">
+    {{!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> --}}
+    ExpenseTracker
+  </a>
+  <span class="navbar-text ml-auto">
+    USERNAME
+
+  </span>
+  <span class="navbar-text">
+    <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">Collapsed content</h5>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
     </div>
   </div>
+  <nav class="navbar navbar-dark bg-success">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
 </div>
+  </span>
+</nav>
+
+
+<div class="container-fluid">
+<div class="row">
+  <nav  class="col-1 d-none d-md-block bg-dark sidebar" style="height:800px">
+    <div class="sidebar-sticky">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active text-light" href="#">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Details</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Add Expense</a>
+      </li>
+    </ul>
+    </div>
+    </nav>
+    
+
+  <div class="col-11">
+
+    <div class="m-2">
+
+    <h2>Add a Transaction</h2>
+
+    <form>
+      <div style="display:inline-block">
+        <label for="description">Description</label> <br>
+        <input id="description" type="text" class="form-control" required>
+      </div>
+      <div style="display:inline-block">
+        <label for="amount">Amount</label> <br>
+        <input id="amount" type="number" class="form-control" placeholder="00.00" step=".01" min=".01" required>
+      </div>
+      <div style="display:inline-block">
+        <label for="date">Date</label> <br>
+        <input id="date" type="date" class="form-control" required>
+      </div>
+      <div style="display:inline-block">
+        <label for="category">Category</label> <br>
+          <select id="category" class="form-control" required>
+            <option value="">-- Select a Category --</option> 
+            <option value="">Food & Drink</option>
+            <option value="">Entertainment</option>
+            <option value="">Gas</option>
+            <option value="">Clothing</option>
+          </select>
+      </div> <br> <br>
+      <input id="submit" type="submit" class="btn btn-success"> 
+    </form>
+    </div>
+  </div>
+  </div>
+
+    </div>
+    
+
+
+
+
+
+{{!-- homepage: consists of login/sign-up section; information about site/app; if logged in, honmepage goes straight to user profile --}}
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+  console.log(moment().format("YYYY-MM-DD"));
+  $("#date").val(moment().format("YYYY-MM-DD"));
+
+});
+
+</script>
+
+
