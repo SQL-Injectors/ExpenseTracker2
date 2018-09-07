@@ -3,9 +3,22 @@ Expense Tracker---Project 2---Group 2
 Artawood Chitamitara, Anusha Kuchipudi, Kelvin(Lastname lol), Samy Ben Mohamed
 
 
-<1>This section is the group's collect brainstorming, remote collabration, and research and developement
+<1>This section is the group's collect brainstorming, remote collabration, and research and developement aka CODING JOURNAL-COLLECTIVE DATA ENTRY
 
 <Samy Bm - 9/7/18> adding to readme for our group to get a better focus on exactly what tasks need to be accomplished and too create the collabrative environment for that to happen.
+
+SamyBM -Ticket- Most common spending categories- 
+https://www.quicken.com/most-recommended-household-budget-items
+TOP TEN- from 1-10 in descending order
+Emergency Fund
+Housing
+Savings
+Utilities
+Health Care
+Consumer Debt
+Food and Groceries
+Personal Care
+Entertainment
 
 
 
