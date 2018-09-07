@@ -27,4 +27,6 @@ Artawood Chitamitara, Anusha Kuchipudi, Kelvin(Lastname lol), Samy Ben Mohamed
             Kelvin-
             Samy-ReadMe.MD
             {6}
+
+        {7}---Coding Growning Pains-Basic Errors & Problems we came accross our developement & resolutions---{7}
         
