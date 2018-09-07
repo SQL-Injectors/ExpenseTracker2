@@ -5,13 +5,26 @@ Artawood Chitamitara, Anusha Kuchipudi, Kelvin(Lastname lol), Samy Ben Mohamed
 
 <1>This section is the group's collect brainstorming, remote collabration, and research and developement
 
-
-
-
-
+<Samy Bm - 9/7/18> adding to readme for our group to get a better focus on exactly what tasks need to be accomplished and too create the collabrative environment for that to happen.
 
 
 
 
 
 <2>This section discribes our final application. 
+
+
+~~<SamyBM-Comment>~~ This description is intended to guide our project and presentation.
+    PROJECT 2 - Expense Tracker App- Intention & Discription
+        {1}---BASIC GOAL OF APPLICATION---{1}
+        {2}---App Drafting Process\How we got to this specific idea---{2}
+        {3}---How app is intended to be used aka step by step functionality explained(logic)---{3}
+        {4}---How our app meets the specificed Class Project requirements---{4}
+        {5}---Future Dev Op Ideas---{5}
+        {6}---Who did what---
+            Art-
+            Anusha-
+            Kelvin-
+            Samy-ReadMe.MD
+            {6}
+        
