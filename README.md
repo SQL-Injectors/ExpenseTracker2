@@ -1,4 +1,4 @@
-UC BERKELEY BOOTCAMP- Septemeber 2018
+UC BERKELEY BOOTCAMP- September 2018
 Expense Tracker---Project 2---Group 2
 Artawood Chitamitara, Anusha Kuchipudi, Kelvin(Lastname lol), Samy Ben Mohamed
 
