@@ -1,38 +1,45 @@
-# Project Starter
+UC BERKELEY BOOTCAMP- September 2018
+Expense Tracker---Project 2---Group 2
+Artawood Chitamitara, Anusha Kuchipudi, Kelvin(Lastname lol), Samy Ben Mohamed
 
-In this activity we will add the provided boilerplate to group project repos.
 
-## Instructions
+<1>This section is the group's collect brainstorming, remote collabration, and research and developement aka CODING JOURNAL-COLLECTIVE DATA ENTRY
 
-* Only one member of each group should complete this activity while the others watch.
+<Samy Bm - 9/7/18> adding to readme for our group to get a better focus on exactly what tasks need to be accomplished and too create the collabrative environment for that to happen.
 
-* Copy the entire [Unsolved](Unsolved) folder to another location on your computers &mdash; wherever you would like your local copy of the group project to be.
+SamyBM -Ticket- Most common spending categories- 
+https://www.quicken.com/most-recommended-household-budget-items
+TOP TEN- from 1-10 in descending order
+Emergency Fund
+Housing
+Savings
+Utilities
+Health Care
+Consumer Debt
+Food and Groceries
+Personal Care
+Entertainment
 
-* Rename the copied "Unsolved" folder to the name of your project.
 
-* Open the copied project folder's `package.json` file and change its `name` property to the name of your project.
 
-* CD to the root of the copied project folder with your terminal and run the following commands:
 
-  ```
-  git init
-  git add .
-  git commit -m "Initial commit"
-  ```
 
-* Then copy the GitHub repo's remote SSH URL (the same URL you'd use to clone the repo).
+<2>This section discribes our final application. 
 
-* Run the following commands in your terminal, replacing <remote-url> with your GitHub repo's remote SSH URL.
 
-  ```
-  git remote add origin <remote-url>
-  git push origin master
-  ```
+~~<SamyBM-Comment>~~ This description is intended to guide our project and presentation.
+    PROJECT 2 - Expense Tracker App- Intention & Discription
+        {1}---BASIC GOAL OF APPLICATION---{1}
+        {2}---App Drafting Process\How we got to this specific idea---{2}
+        {3}---How app is intended to be used aka step by step functionality explained(logic)---{3}
+        {4}---How our app meets the specificed Class Project requirements---{4}
+        {5}---Future Dev Op Ideas---{5}
+        {6}---Who did what---
+            Art-
+            Anusha-
+            Kelvin-
+            Samy-ReadMe.MD
+            {6}
 
-* If completed successfully you should see all of the files uploaded to GitHub.
-
-* All other group members should now clone the repo.
-
-* Discuss as a group:
-
-  * How would you now add changes to this project?
+        {7}---Coding Growning Pains-Basic Errors & Problems we came accross our developement & resolutions---{7}
+        
