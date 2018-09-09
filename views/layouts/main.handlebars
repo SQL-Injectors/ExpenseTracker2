@@ -7,11 +7,68 @@
   <link rel="stylesheet" href="/styles/styles.css" media="screen" title="no title" charset="utf-8">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-  <title>Home Page</title>
+  <title>ExpenseTracker App</title>
 </head>
 
 <body>
-  {{{body}}}
+  <header>
+    <nav class="navbar navbar-dark bg-success">
+      <a class="navbar-brand " href="#">
+        {{!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> --}}
+        ExpenseTracker
+      </a>
+      <span class="navbar-text ml-auto">
+        USERNAME
+      </span>
+      <span class="navbar-text">
+        <div class="pos-f-t">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-success">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+      </span>
+    </nav>
+  </header>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-2 d-none d-md-block bg-dark sidebar" style="height:800px">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="/">Dashboard</a> <!-- to default route '/' -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="details">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="addexpense">Add Expense</a>
+            </li>
+          </ul>
+        </div>
+      </nav> <!-- sidebar col-2-->
+
+      <div class="col-10">
+        <div class="m-2">
+          {{{body}}}
+        </div>
+      </div> <!-- main content col-10-->
+    </div> <!-- row -->
+  </div> <!-- container-fluid -->
+    
+{{!-- homepage: consists of login/sign-up section; information about site/app; if logged in, honmepage goes straight to user profile --}}
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+<script src="/js/index.js"></script>
 </body>
 
 </html>
