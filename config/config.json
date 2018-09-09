@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "exampledb",
+    "database": "expensetracker_db",
     "dialect": "mysql"
   },
   "test": {

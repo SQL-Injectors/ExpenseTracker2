@@ -45,7 +45,7 @@
 <div class="container m-2">
     <h2>Expense Details</h2><br>
 <div class="filter-section">
-<form>
+<form id="view-expenses">
     <p>Filter by:</p>
     <div style="display:inline-block">
         <label for="date-range">Date Range</label> <br>
@@ -67,12 +67,11 @@
     <br>    
     <div style="display:inline-block">
         <label for="category">Category (optional)</label> 
-          <select id="category" class="form-control" required>
-            <option value="">-- Select a Category --</option> 
-            <option value="">Food & Drink</option>
-            <option value="">Entertainment</option>
-            <option value="">Gas</option>
-            <option value="">Clothing</option>
+          <select id="category" class="form-control">
+            <option value="">All</option> 
+            {{#each categories}}
+              <option value={{this.id}}>{{category_name}}</option>
+            {{/each}}
           </select>
       </div> 
 
@@ -85,6 +84,7 @@
       
       <input id="submit" type="submit" class="btn btn-success"> 
     </form>
+      <div id="expenses-display"></div>
     </div>
   </div>
 
@@ -92,7 +92,8 @@
 
 
     
-</form>
+
+
 
     
 
