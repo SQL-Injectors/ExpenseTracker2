@@ -1,1 +1,11 @@
-id,category1,Clothing2,Entertainment3,Food and Groceries4,Healthcare5,Housing6,Miscellaneous7,Personal Care8,Restaurant9,Transportation10,Utilities
+id,category,createdAt,updatedAt
+1,Clothing,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+2,Entertainment,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+3,"Food and Groceries","2018-09-09 00:00:00","2018-09-09 00:00:00"
+4,Healthcare,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+5,Housing,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+6,Miscellaneous,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+7,"Personal Care","2018-09-09 00:00:00","2018-09-09 00:00:00"
+8,Restaurant,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+9,Transportation,"2018-09-09 00:00:00","2018-09-09 00:00:00"
+10,Utilities,"2018-09-09 00:00:00","2018-09-09 00:00:00"
