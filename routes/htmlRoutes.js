@@ -1,19 +1,29 @@
 var db = require("../models");
 
 module.exports = function(app) {
-  // Load index page
+  // Load dashboard page
   app.get("/", function(req, res) {
     db.Category.findAll().then(function(dbCategories) {
-      res.render("index", {
+      res.render("dashboard", {
         categories: dbCategories
       });
     })
         
   });
 
-  app.get("/viewexpenses", function(req, res) {
+  // Expense Details page
+  app.get("/details", function(req, res) {
     db.Category.findAll().then(function(dbCategories) {
-      res.render("viewexpenses", {
+      res.render("details", {
+        categories: dbCategories
+      });
+    })
+  })
+
+  // Add Expense page
+  app.get("/addexpense", function(req, res) {
+    db.Category.findAll().then(function(dbCategories) {
+      res.render("addexpense", {
         categories: dbCategories
       });
     })
