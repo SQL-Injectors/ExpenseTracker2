@@ -6,6 +6,7 @@ var exphbs = require("express-handlebars");
 var db = require("./models");
 
 var app = express();
+var Chart = require('chart.js');
 var PORT = process.env.PORT || 3000;
 
 // Middleware
