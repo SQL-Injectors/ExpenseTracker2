@@ -31,7 +31,7 @@ module.exports = function(app) {
       function getSum (total,num) {
         return total + num;
       }
-      let total = parseFloat(amt.reduce(getSum)).toFixed(2);
+      let total = parseFloat(amt.reduce(getSum)).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       res.render("details", {
         expenses: expenses,
         cum: cum,
