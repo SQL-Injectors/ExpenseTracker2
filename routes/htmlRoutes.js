@@ -14,9 +14,28 @@ module.exports = function(app) {
   // Render Expense data onto Expense Details Page
   app.get("/details", function(req, res) {
     db.Expense.findAll().then(function(expenses) {
-      console.log(expenses)
+      let amt = [];
+      let cum = [];
+      // Iterate through each object to get amount values
+      expenses.forEach(expense => {
+        amt.push(parseFloat(expense.amount));
+      })
+      // Running total
+      amt.reduce(function(a,b,i){
+        return cum[i] = a + b;
+      })
+      //Replaces the first index of cum array with first index of amt array
+      cum[0] = amt[0];
+      console.log(cum);
+      //total of array
+      function getSum (total,num) {
+        return total + num;
+      }
+      let total = parseFloat(amt.reduce(getSum)).toFixed(2);
       res.render("details", {
-        expenses: expenses
+        expenses: expenses,
+        cum: cum,
+        total: total
       });
     })
   })
