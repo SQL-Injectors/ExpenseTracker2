@@ -10,8 +10,6 @@ module.exports = function(sequelize, DataTypes) {
   //   Expense.belongsTo(models.User, {});
   //   Expense.belongsTo(models.Category, {});
   // }
-
-  });
   
   return Expense;
 };
