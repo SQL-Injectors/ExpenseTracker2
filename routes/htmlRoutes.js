@@ -11,11 +11,12 @@ module.exports = function(app) {
         
   });
 
-  // Expense Details page
+  // Render Expense data onto Expense Details Page
   app.get("/details", function(req, res) {
-    db.Category.findAll().then(function(dbCategories) {
+    db.Expense.findAll().then(function(expenses) {
+      console.log(expenses)
       res.render("details", {
-        categories: dbCategories
+        expenses: expenses
       });
     })
   })

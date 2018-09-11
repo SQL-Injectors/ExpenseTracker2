@@ -25,7 +25,14 @@
     <th>Amount</th>
     <th>Cumulative</th>
   </tr>
-  <!-- append data here -->
+  {{#expenses}}
+  <tr>
+    <th>{{date}}</th>
+    <th>{{description}}</th>
+    <th>{{category}}</th>
+    <th>$ {{amount}}</th>
+  </tr>
+  {{/expenses}}
 </table>
 
 
