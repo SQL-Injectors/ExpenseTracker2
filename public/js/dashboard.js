@@ -38,8 +38,8 @@ $.ajax("/api/expenses", {
     type: "GET",
     data: {
         UserId:1,
-        startDate: "2018-08-10",
-        endDate: "2018-09-10",
+        startDate: "2018-07-10",
+        endDate: "2018-10-10",
         description: "",
         CategoryId: ""
     }
